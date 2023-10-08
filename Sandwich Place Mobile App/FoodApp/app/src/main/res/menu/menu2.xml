@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/adminhome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item
+        android:id="@+id/foodadd"
+        android:title="Food Add"
+        android:icon="@drawable/baseline_reorder_24"/>
+    <item
+        android:id="@+id/viewfood"
+        android:title="Food List"
+        android:icon="@drawable/baseline_history_24" />
+    <item
+        android:id="@+id/vieworders"
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_24"/>
+</menu>

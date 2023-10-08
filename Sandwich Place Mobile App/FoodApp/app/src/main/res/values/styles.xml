@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="exit" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:colorAccent">@color/black</item>
+        <item name="android:background">#D7FE8618</item>
+    </style>
+    <style name="chooses" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:background">#3F51B5</item>
+    </style>
+    <style name="deliver" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:background">#D6E91E63</item>
+    </style>
+    <style name="alert" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:background">#D6FF0000</item>
+    </style>
+</resources>

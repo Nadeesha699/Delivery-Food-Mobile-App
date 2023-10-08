@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="SANDWITCHPLACE"
+        android:roundIcon="@drawable/rectangle_3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Foodview"
+            android:exported="true"/>
+        <activity
+            android:name=".OrderView"
+            android:exported="true"/>
+        <activity
+            android:name=".HistoryNo"
+            android:exported="true"/>
+        <activity
+            android:name=".profile"
+            android:exported="true"/>
+        <activity
+            android:name=".AddFood"
+            android:exported="true"/>
+        <activity
+            android:name=".AdminHome"
+            android:exported="true"/>
+        <activity
+            android:name=".DeliveryHome"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true"/>
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".Orders"
+            android:exported="true" />
+        <activity
+            android:name=".History"
+            android:exported="true"/>
+        <activity
+            android:name=".OrdersPending"
+            android:exported="true" />
+        <activity
+            android:name=".OrderItem"
+            android:exported="true" />
+        <activity
+            android:name=".StartingView"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderComplete"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>
